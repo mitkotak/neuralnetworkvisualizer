@@ -57,4 +57,3 @@ if st.button('Get random prediction'):
         plt.tight_layout()
         st.text('Layer {}'.format(layer+1))
         st.pyplot()
-st.set_option('deprecation.showPyplotGlobalUse', False)
