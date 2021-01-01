@@ -73,5 +73,3 @@ if st.button('Get Random Prediction'):
         st.pyplot()
     
     
-    
-st.set_option('deprecation.showPyplotGlobalUse', False)
