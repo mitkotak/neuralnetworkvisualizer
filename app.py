@@ -6,7 +6,6 @@ import tensorflow as tf
 import matplotlib.pyplot as plt
 import numpy as np
 
-from skimage.transform import resize
 
 
 st.title("Neural Network")
@@ -73,3 +72,6 @@ if st.button('Get Random Prediction'):
         st.text('Layer {}'.format(layer+1))
         st.pyplot()
     
+    
+    
+st.set_option('deprecation.showPyplotGlobalUse', False)
