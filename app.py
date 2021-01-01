@@ -6,7 +6,7 @@ import tensorflow as tf
 import matplotlib.pyplot as plt
 import numpy as np
 
-from skimage.transform import resize
+
 
 
 st.title("Neural Network")
