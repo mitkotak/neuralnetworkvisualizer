@@ -1,5 +1,8 @@
 
 import streamlit as st
+# Disable PyplotGlobalUseWarning: You are calling st.pyplot() without any arguments. 
+# After December 1st, 2020, we will remove the ability to do this as it requires the use of Matplotlib's global figure object, which is not thread-safe.
+st.set_option('deprecation.showPyplotGlobalUse', False)
 import json
 import requests
 import tensorflow as tf
